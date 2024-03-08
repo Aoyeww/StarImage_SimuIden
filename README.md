@@ -1,7 +1,9 @@
 # StarImage_SimuIden
 Star image simulation and identification
-
 星图 模拟&识别 
+
+*	这个Matlab App是我近两年的工作汇总，为了方便自己的工作，也分享给你
+*	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作，它在极端少星(3-4颗)、多假星干扰、强噪声条件下的性能优越，如果你有兴趣，可以在这里找到介绍：https://doi.org/10.1109/JSEN.2024.3350089
 
 软件功能：
 
@@ -73,5 +75,5 @@ Star image simulation and identification
 	Pixel_thres：连通域阈值，单位为像素
 	Num：目标数量，会按照检测/识别结果自动更新。
 
-	*Todo：目前仅通过阈值分割方法检测能力弱，后续需要考虑更有效的检测方法。
+	*Todo：仅通过阈值分割方法检测能力较弱，后续需要考虑更有效的检测方法。
 
