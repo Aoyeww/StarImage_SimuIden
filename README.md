@@ -5,6 +5,8 @@ Star image simulation and identification
 *	这个Matlab App是我近两年的工作汇总，为了方便自己的工作，也分享给你
 *	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作，它在极端少星(3-4颗)、多假星干扰、强噪声条件下的性能优越，如果你有兴趣，可以在这里找到介绍：
 	https://doi.org/10.1109/JSEN.2024.3350089
+*	如果您的电脑有matlab，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
+*	如果您的电脑没有matlab，您可以用MyAppInstaller_web.exe，它会先引导您安装Matlab Runtime 约2GB大小，这将消耗一段时间。此后会安装本项目独立的exe文件，大小仅有10M左右。
 
 
 软件功能：
