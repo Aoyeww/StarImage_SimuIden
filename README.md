@@ -8,6 +8,8 @@
 	
  如果您的电脑没有matlab，您可以用MyAppInstaller_web.exe，它会先引导您安装Matlab Runtime 约2GB大小，这将消耗一段时间。此后会安装本项目独立的exe文件，大小仅有10M左右。
 
+![image](https://github.com/Aoyeww/StarImage_SimuIden/assets/148066194/d5ca5dd8-dd16-4fe2-8b01-b52a79c3809a)
+
 
 软件功能：
 
