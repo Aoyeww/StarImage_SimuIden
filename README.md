@@ -4,9 +4,8 @@
 *	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer，它在极端少星(3-4颗)、多假星干扰、强噪声条件下的性能优越，如果你有兴趣，可以在这里找到介绍：
 	https://doi.org/10.1109/JSEN.2024.3350089
 
- 如果您的电脑有matlab，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
+ 这是一个matlab app，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
 	
- 如果您的电脑没有matlab，您可以用MyAppInstaller_web.exe，它会先引导您安装Matlab Runtime 约2GB大小，这将消耗一段时间。此后会安装本项目独立的exe文件，大小仅有10M左右。
 
 ![image](https://github.com/user-attachments/assets/d74be242-e239-4269-b0cb-585f75650fbe)
 
