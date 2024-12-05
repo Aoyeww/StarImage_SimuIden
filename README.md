@@ -89,3 +89,7 @@
 	增加7.5星库识别功能
 ##3.0版本更新（20240718）
 	重写了后端GST识别算法，美化了界面
+##4.0版本更新（20241205）
+	增加了默认保存地址为matlab当前路径下的'StarSimuIdenAPP_save/'文件夹，也可以在function中点击Set SavePath来修改保存路径；
+	增加了多帧星图序列模拟功能，在5.Image_Parameter中Mode选择SeqCont连续序列，星点按照速度vx vy设定；SeqRand 随机序列，每一帧的姿态都是随机的；星图序列模拟不会显示所有帧图像，而是会在存储路径下创建一个子文件夹并保存图像。
+	修改了曝光时间设定为"ExpoTime / SeqNum"，Statics静态模式下无意义，Dynamic动态模式下为曝光时间，Seq模式下为序列图像帧数。
