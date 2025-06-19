@@ -92,3 +92,33 @@
 	增加了默认保存地址为matlab当前路径下的'StarSimuIdenAPP_save/'文件夹，也可以在function中点击Set SavePath来修改保存路径；
 	增加了多帧星图序列模拟功能，在5.Image_Parameter中Mode选择SeqCont连续序列，星点按照速度vx vy设定；SeqRand 随机序列，每一帧的姿态都是随机的；星图序列模拟不会显示所有帧图像，而是会在存储路径下创建一个子文件夹并保存图像。
 	修改了曝光时间设定为"ExpoTime / SeqNum"，Statics静态模式下无意义，Dynamic动态模式下为曝光时间，Seq模式下为序列图像帧数。
+
+# Papers
+
+When referencing StarImage_SimuIden, please cite these papers:
+Star Identification:[A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://ieeexplore.ieee.org/abstract/document/10397074)
+```
+@ARTICLE{10397074,
+  author={Wei, Yuheng and Wei, Xinguo and Liu, Hao and Li, Jian},
+  journal={IEEE Sensors Journal}, 
+  title={A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer}, 
+  year={2024},
+  volume={24},
+  number={5},
+  pages={6539-6547},
+  keywords={Sensors;Pattern matching;Robustness;Position measurement;Symbols;Satellites;Graphical models;Algorithm design and analysis;Angular distance matching;graph representation algorithm;star identification;star sensor},
+  doi={10.1109/JSEN.2024.3350089}}
+```
+Star Image/Sequence Simulation & Space Objects Detection/Tracking:[Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors](https://ieeexplore.ieee.org/document/11014542)
+```
+@ARTICLE{11014542,
+  author={Wei, Yuheng and Chen, Qian and Wei, Xinguo},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors}, 
+  year={2025},
+  volume={74},
+  number={},
+  pages={1-12},
+  keywords={Stars;Space vehicles;Imaging;Signal to noise ratio;Object detection;Target tracking;Real-time systems;Satellites;Aerospace electronics;Feature extraction;Dim space target photoelectric detection;space situation awareness;space target behavior understanding and prediction;star background processing;star sensors},
+  doi={10.1109/TIM.2025.3573015}}
+```
