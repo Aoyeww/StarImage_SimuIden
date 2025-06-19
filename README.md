@@ -2,7 +2,7 @@
 	
 *	这个Matlab App是我近两年的工作汇总，为了方便自己的工作，也分享给你
 *	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: [A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://doi.org/10.1109/JSEN.2024.3350089)，它在多假星干扰、极端少星(3-4颗)、强噪声条件下的性能优越，如果你有兴趣，可以看看文章
-*	对空间中的点目标（恒星、人造卫星、空间碎片、行星等）的检测，我们有一些新的进展：[Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors](https://ieeexplore.ieee.org/document/11014542) 。图像检测方面：通过将恒星的识别结果所包含的星等信息带入成像模型，让所有恒星像素灰度联立方程组，提升点目标成像（点扩散函数）的参数求解精度，利用成像参数提升点目标信噪比。序列检测方面：通过多级假设检验实时增加/更新/删除视场内的目标，基于卡尔曼滤波对目标下一帧位置进行预测，将预测值和观测值在长时段视角跟踪目标，在短时段视角分析目标状态。
+
 
  这是一个matlab app，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
 	
@@ -80,7 +80,8 @@
 	Pixel_thres：连通域阈值，单位为像素
 	Num：目标数量，会按照检测/识别结果自动更新。
 
-	*Todo：仅通过阈值分割方法检测能力弱，后续需要考虑更有效的检测方法。
+	* Todo：仅通过阈值分割方法检测能力弱，后续需要考虑更有效的检测方法。
+	* Solution：对空间中的点目标（恒星、人造卫星、空间碎片、行星等）的检测，我们有一些新的进展：[Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors](https://ieeexplore.ieee.org/document/11014542) 。图像检测方面：通过将恒星的识别结果所包含的星等信息带入成像模型，让所有恒星像素灰度联立方程组，提升点目标成像（点扩散函数）的参数求解精度，利用成像参数提升点目标信噪比。序列检测方面：通过多级假设检验实时增加/更新/删除视场内的目标，基于卡尔曼滤波对目标下一帧位置进行预测，将预测值和观测值在长时段视角跟踪目标，在短时段视角分析目标状态。（会在有空的时候将该功能集成进APP）
 
 * 2.8版本更新（20240316）：
 	增加了标定内参功能
