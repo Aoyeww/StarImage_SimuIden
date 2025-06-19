@@ -1,8 +1,8 @@
 # Star image simulation and identification 星图 模拟&识别 
 	
 *	这个Matlab App是我近两年的工作汇总，为了方便自己的工作，也分享给你
-*	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer，它在极端少星(3-4颗)、多假星干扰、强噪声条件下的性能优越，如果你有兴趣，可以在这里找到介绍：
-	https://doi.org/10.1109/JSEN.2024.3350089
+*	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: [A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://doi.org/10.1109/JSEN.2024.3350089)，它在极端少星(3-4颗)、多假星干扰、强噪声条件下的性能优越，如果你有兴趣，可以看看文章
+	
 
  这是一个matlab app，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
 	
@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/d74be242-e239-4269-b0cb-585f75650fbe)
 
 
-软件功能：
+# 软件功能：
 
 1.星图模拟：可以输入姿态参数、相机参数模拟静态或动态星图，可以添加静态或动态的目标(假星)
 
@@ -20,7 +20,7 @@
 
 4.其他功能：导入图像、保存图像、镜像翻转图像、反投影星点、星点掩膜、目标探测。
 
-面板介绍：
+# 面板介绍：
 
 1. Attitude_Input 姿态输入
 	Rand按钮：随机生成一组姿态参数，Ra赤经Dec赤纬对应的方向矢量服从在全天球概率均匀分布，Roll滚转角服从 ( -\pi, \pi ] 均匀分布。
