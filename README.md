@@ -96,7 +96,8 @@
 # Papers
 
 When referencing StarImage_SimuIden, please cite these papers:
-Star Identification:[A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://ieeexplore.ieee.org/abstract/document/10397074)
+
+* [A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://ieeexplore.ieee.org/abstract/document/10397074)
 ```
 @ARTICLE{10397074,
   author={Wei, Yuheng and Wei, Xinguo and Liu, Hao and Li, Jian},
@@ -109,7 +110,7 @@ Star Identification:[A Star Identification Graph Algorithm Based on Angular Dist
   keywords={Sensors;Pattern matching;Robustness;Position measurement;Symbols;Satellites;Graphical models;Algorithm design and analysis;Angular distance matching;graph representation algorithm;star identification;star sensor},
   doi={10.1109/JSEN.2024.3350089}}
 ```
-Star Image/Sequence Simulation & Space Objects Detection/Tracking:[Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors](https://ieeexplore.ieee.org/document/11014542)
+* [Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors](https://ieeexplore.ieee.org/document/11014542)
 ```
 @ARTICLE{11014542,
   author={Wei, Yuheng and Chen, Qian and Wei, Xinguo},
