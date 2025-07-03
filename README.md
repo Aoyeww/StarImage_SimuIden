@@ -1,4 +1,4 @@
-# Star image simulation and identification 星图 模拟&识别 
+# Star image simulation and identification v5.0 星图 模拟&识别 
 	
 *	这个Matlab App是我近两年的工作汇总，为了方便自己的工作，也分享给你
 *	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: [A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://doi.org/10.1109/JSEN.2024.3350089)，它在多假星干扰、极端少星(3-4颗)、强噪声条件下的性能优越，如果你有兴趣，欢迎看看文章
