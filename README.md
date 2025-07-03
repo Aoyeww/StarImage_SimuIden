@@ -7,8 +7,7 @@
 
  这是一个matlab app，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
 	
-
-![image](https://github.com/user-attachments/assets/d74be242-e239-4269-b0cb-585f75650fbe)
+![app5 0](https://github.com/user-attachments/assets/bfdf6e83-1a50-4879-a1c8-c049276e745c)
 
 
 # 软件功能：
