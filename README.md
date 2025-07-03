@@ -1,7 +1,8 @@
 # Star image simulation and identification 星图 模拟&识别 
 	
 *	这个Matlab App是我近两年的工作汇总，为了方便自己的工作，也分享给你
-*	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: [A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://doi.org/10.1109/JSEN.2024.3350089)，它在多假星干扰、极端少星(3-4颗)、强噪声条件下的性能优越，如果你有兴趣，可以看看文章
+*	本软件所采取的星图识别算法是我2024.2.29发表在IEEE Sensors Journal的工作: [A Star Identification Graph Algorithm Based on Angular Distance Matching Score Transfer](https://doi.org/10.1109/JSEN.2024.3350089)，它在多假星干扰、极端少星(3-4颗)、强噪声条件下的性能优越，如果你有兴趣，欢迎看看文章
+*	本软件所采取的PSF估计和空间点目标图像增强算法是我2025.5.23发表在IEEE TIM的工作: [Real-Time Detection, Tracking, and Anomaly Analysis of Dim Small Space Targets for Space Situational Awareness Using Star Sensors](https://ieeexplore.ieee.org/document/11014542)，它通过图像中较亮恒星的高置信度质心、星等信息，联立求解PSF，并设计空间滤波和形态学操作对点光源目标进行增强，同时文章介绍了空间目标的时序跟踪和分析，如果你有兴趣，欢迎看看文章
 
 
  这是一个matlab app，您可以用Star_Simu&Iden.mlappinstall安装Matlab APP；
